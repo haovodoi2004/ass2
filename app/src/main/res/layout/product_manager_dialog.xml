@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/img_product_dia"
+        android:src="@drawable/image_search_24px"
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <EditText
+        android:id="@+id/ed_product_name_dia"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:minHeight="48dp" />
+    />
+    <Spinner
+        android:id="@+id/sp_category_ida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ed_description_ida"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:minHeight="48dp" />
+    />
+    <EditText
+        android:id="@+id/ed_price_ida"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Price" />
+    <EditText
+        android:id="@+id/ed_stock_dia"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Stock" />
+</LinearLayout>
